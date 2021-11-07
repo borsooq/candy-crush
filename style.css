@@ -1,0 +1,77 @@
+.board-wrapper {
+    height: 620px;
+    width: 620px;
+    background-color: lavender;
+    border-radius: 5em;
+    margin-left: auto; 
+    margin-right: 20;      
+    border: 2px dashed #f69c55;  
+    align-content: center;
+}
+
+.grid {
+    height: 560px;
+    width: 560px;
+    display: flex;    
+    flex-wrap: wrap;    
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;  
+}
+
+.grid div {
+    height: 70px;
+    width: 70px;
+}
+
+.title{
+    height: 200px;
+    line-height: 200px;
+    width: 1240px;
+    background-color: lavender;
+    text-align: center;        
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    margin-left: 20; 
+    margin-right: auto;
+    border-radius: 5em;
+    border: 2px dashed #f69c55;            
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+#score {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    margin-left: auto; 
+}  
+
+.panelContainer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-left: auto; 
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;   
+    margin-bottom: 10px;
+}
+
+button {            
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;        
+    background-color: lightgreen;
+    border-radius: 10px;    
+    width: 50%;
+    border: 3px solid green;
+    padding: 20px;
+    margin:0 auto;
+    display:block; 
+    
+}
+
